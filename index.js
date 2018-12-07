@@ -33,6 +33,13 @@ module.exports = {
 	rules: {
 		'arrow-body-style': [2, 'as-needed'],
 		'arrow-parens': [2, 'as-needed'],
+		'camelcase': [2, {
+			allow: [
+				'UNSAFE_componentWillMount',
+				'UNSAFE_componentWillReceiveProps',
+				'UNSAFE_omponentWillUpdate'
+			]
+		}],
 		'consistent-return': [2],
 		'comma-style': [2],
 		'no-nested-ternary': [2],
@@ -78,7 +85,7 @@ module.exports = {
 		],
 		'react/no-multi-comp': [1, { ignoreStateless: true }],
 		'react/sort-comp': [1],
-		// Planned expansion:
+		// Future
 		// 'multiline-ternary': [2]
 	},
 	settings: {
