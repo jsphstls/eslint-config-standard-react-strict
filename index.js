@@ -12,6 +12,7 @@ module.exports = {
     'node',
     'promise',
     'react',
+    'react-hooks',
     'sort-imports-es6-autofix',
     'standard'
   ],
