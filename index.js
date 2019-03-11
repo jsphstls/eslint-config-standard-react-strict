@@ -12,6 +12,7 @@ module.exports = {
     'node',
     'promise',
     'react',
+    'react-hooks',
     'sort-imports-es6-autofix',
     'standard'
   ],
@@ -60,6 +61,8 @@ module.exports = {
       ]
     }],
     'react/forbid-foreign-prop-types': [2],
+    "react-hooks/rules-of-hooks": [2],
+    "react-hooks/exhaustive-deps": [2],
     'react/jsx-closing-bracket-location': [1],
     'react/jsx-closing-tag-location': [1],
     'react/jsx-curly-brace-presence': [1, {
