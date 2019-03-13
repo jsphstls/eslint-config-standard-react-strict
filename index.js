@@ -3,7 +3,8 @@ module.exports = {
   extends: [
     'react-app',
     'standard',
-    'standard-react'
+    'standard-react',
+    'plugin:jsx-a11y/recommended'
   ],
   plugins: [
     'flowtype',
@@ -61,8 +62,8 @@ module.exports = {
       ]
     }],
     'react/forbid-foreign-prop-types': [2],
-    "react-hooks/rules-of-hooks": [2],
-    "react-hooks/exhaustive-deps": [2],
+    'react-hooks/rules-of-hooks': [2],
+    'react-hooks/exhaustive-deps': [2],
     'react/jsx-closing-bracket-location': [1],
     'react/jsx-closing-tag-location': [1],
     'react/jsx-curly-brace-presence': [1, {
